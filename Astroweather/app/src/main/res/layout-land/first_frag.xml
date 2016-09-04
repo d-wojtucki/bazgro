@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/sun"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingStart="20dp">
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="@string/sun_sunrise"
+                    android:textStyle="bold"
+                    android:gravity="right" />
+                <TextView
+                    android:id="@+id/sun_sunrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="..."
+                    android:gravity="left" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="@string/sun_sunset"
+                    android:textStyle="bold"
+                    android:gravity="right" />
+                <TextView
+                    android:id="@+id/sun_sunset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="..."
+                    android:gravity="left" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="@string/sun_azimuthrise"
+                    android:textStyle="bold"
+                    android:gravity="right" />
+                <TextView
+                    android:id="@+id/sun_azimuthrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="..."
+                    android:gravity="left" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="@string/sun_azimuthset"
+                    android:textStyle="bold"
+                    android:gravity="right" />
+                <TextView
+                    android:id="@+id/sun_azimuthset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="..."
+                    android:gravity="left" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="@string/sun_twilighmorning"
+                    android:textStyle="bold"
+                    android:gravity="right" />
+                <TextView
+                    android:id="@+id/sun_twilighmorning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="..."
+                    android:gravity="left" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="@string/sun_twilighevening"
+                    android:textStyle="bold"
+                    android:gravity="right" />
+                <TextView
+                    android:id="@+id/sun_twilighevening"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="14dp"
+                    android:text="..."
+                    android:gravity="left" />
+            </TableRow>
+        </TableLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Astroweather</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_glowna">GlownaActivity</string>
+    <string name="sun_azimuthrise">Azimuth rise: </string>
+    <string name="sun_azimuthset">Azimuth set: </string>
+    <string name="sun_sunrise">Sunrise: </string>
+    <string name="sun_sunset">Sunset: </string>
+    <string name="sun_twilighmorning">Twilight morning: </string>
+    <string name="sun_twilighevening">Twilight evening: </string>
+    <string name="moon_age">Moon age: </string>
+    <string name="moon_illumination">Illumination: </string>
+    <string name="moon_moonrise">Moonrise: </string>
+    <string name="moon_moonset">Moonset: </string>
+    <string name="moon_nextfullmoon">Next full moon: </string>
+    <string name="moon_nextnewmoon">Next new moon: </string>
+</resources>
+

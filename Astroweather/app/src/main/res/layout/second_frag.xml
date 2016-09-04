@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/moon"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:paddingEnd="35dp"
+        android:gravity="top"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="@string/moon_moonrise"
+                android:textStyle="bold"
+                android:gravity="right" />
+            <TextView
+                android:id="@+id/moon_moonrise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="..."
+                android:gravity="left" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="@string/moon_moonset"
+                android:textStyle="bold"
+                android:gravity="right" />
+            <TextView
+                android:id="@+id/moon_moonset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="..."
+                android:gravity="left" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="@string/moon_age"
+                android:textStyle="bold"
+                android:gravity="right" />
+            <TextView
+                android:id="@+id/moon_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="..."
+                android:gravity="left" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="@string/moon_illumination"
+                android:textStyle="bold"
+                android:gravity="right" />
+            <TextView
+                android:id="@+id/moon_illumination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="..."
+                android:gravity="left" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="@string/moon_nextfullmoon"
+                android:textStyle="bold"
+                android:gravity="right" />
+            <TextView
+                android:id="@+id/moon_nextfullmoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="..."
+                android:gravity="left" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="@string/moon_nextnewmoon"
+                android:textStyle="bold"
+                android:gravity="right" />
+            <TextView
+                android:id="@+id/moon_nextnewmoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="14dp"
+                android:text="..."
+                android:gravity="left" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

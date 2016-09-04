@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#595959"
+    tools:context="com.dwoj.app.astroweather.MainActivity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/mainClock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:background="#595959"
+            android:textColor="#F7F7F7"/>
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:background="#F7F7F7"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+        </android.support.v4.view.ViewPager>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Settings" />
+    </LinearLayout>
+
+<android.support.design.widget.FloatingActionButton
+android:id="@+id/settingsButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="bottom|end"
+android:layout_margin="13dp"
+android:src="@android:drawable/ic_menu_manage"
+android:tint="#e9e9e9"
+app:backgroundTint="#595959"
+    android:onClick="openSettings" />
+
+
+    </android.support.design.widget.CoordinatorLayout>
